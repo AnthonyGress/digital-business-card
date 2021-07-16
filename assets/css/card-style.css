@@ -3,6 +3,11 @@
   --secondary: rgb(201, 12, 176);
 }
 
+header {
+  padding-top: 0;
+  padding-top: env(safe-area-inset-bottom, 0);
+}
+
 .btn-primary, .btn-primary:active {
   background-color: var(--primary-color) !important;
   border-color: var(--primary-color) !important;
