@@ -5,7 +5,7 @@
 
 header {
   padding-top: 0;
-  padding-top: env(safe-area-inset-bottom, 0);
+  padding-top: env(safe-area-inset-top, 0);
 }
 
 .btn-primary, .btn-primary:active {
